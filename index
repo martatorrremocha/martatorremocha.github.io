@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Marta Torremocha — Todo sobre mí 💜</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+  
+   
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Marta Torremocha Diestro 💜</h1>
+      <p>✨ Bienvenida a mi página personal, donde comparto un poco sobre mí, mis estudios y mis inspiraciones 🦋</p>
+    </header>
+
+    <section class="datos">
+      <h2>📘 Datos personales</h2>
+      <p><strong>Instituto:</strong> IES Fernando III<br>
+      <strong>Localidad:</strong> Martos (Jaén)<br>
+      <strong>Teléfono:</strong> 644 57 82 01</p>
+    </section>
+
+    <section class="formacion">
+      <h2>🎓 Formación académica</h2>
+      <ul>
+        <li><strong>Educación primaria:</strong> La Sorbona- Salaverry (Lima)</li>
+        <li><strong>Educación secundaria:</strong> Trilce- Jesús María (Lima)</li>
+        <li><strong>Bachillerato:</strong> I.E.S Fernando III - Martos (Jaén)</li>
+      </ul>
+    </section>
+
+    <section class="otros">
+      <h2>💻 Otra formación</h2>
+      <ul>
+        <li><strong>Informática:</strong>
+          <ul>
+            <li>Paquete Office</li>
+            <li>Photoshop</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <table>
+      <thead> 
+        <tr>
+          <th>Hora</th>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miércoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8:15</td>
+          <td>Biología</td>
+          <td>Inglés</td>
+          <td>Lengua</td>
+          <td>TIC</td>
+          <td>Lengua</td>
+        </tr>
+        <tr> 
+          <td>9:15</td>
+          <td>Química</td>
+          <td>Biología</td>
+          <td>Biología</td>
+          <td>Valores</td>
+          <td>Matemáticas</td>
+        </tr>
+        <tr>
+          <td>10:15</td>
+          <td>TIC</td>
+          <td>Historia</td>
+          <td>Química</td>
+          <td>Biología</td>
+          <td>Comentario</td>
+        </tr>
+      </tbody>
+    </table>
+    <section class="referentes">
+      <h2>🌟 Mis referentes</h2>
+      <p>Estas son algunas de las figuras y seres que más me inspiran 💫</p>
+      <div class="gallery">
+        <figure style="text-align:center;">
+          <img src="https://static.vecteezy.com/system/resources/thumbnails/069/910/318/small/orange-tabby-cat-lying-down-with-head-turned-and-looking-up-attentively-free-photo.jpg" alt="Michu el gato">
+          <figcaption>🐱 Michu</figcaption>
+        </figure>
+
+        <figure style="text-align:center;">
+          <img src="https://media.istockphoto.com/id/959577452/es/foto/antigua-estatua-de-m%C3%A1rmol-del-gran-fil%C3%B3sofo-griego-s%C3%B3crates-en-el-fondo-el-azul-del-cielo.jpg?s=612x612&w=0&k=20&c=ozIPmSJW40UwxtWvxGQXa9HnP69jxO1emni203RvxHg=" alt="Sócrates">
+          <figcaption>🏛️ Sócrates</figcaption>
+        </figure>
+
+        <figure style="text-align:center;">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_937058-MLA73896084708_012024-O.webp" alt="Chuchi el perro">
+          <figcaption>🐶 Chuchi</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <footer>🌸 Diseñado con cariño y estilo lavanda 🌸</footer>
+  </div>
+</body>
+</html>
