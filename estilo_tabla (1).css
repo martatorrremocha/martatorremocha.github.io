@@ -1,0 +1,205 @@
+ :root{
+      --lavanda: #E8D9FF;
+      --rosa: #FFD9EC;
+      --azul: #D9E9FF;
+      --morado: #C4B2FF;
+      --texto: #3A305A;
+    }
+
+    *{ box-sizing:border-box; }
+
+    body{
+      margin:0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(180deg, #faf7ff, #fff);
+      color: var(--texto);
+      padding: 32px;
+    }
+
+    .container{
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    header{
+      text-align:center;
+      padding:30px;
+      border-radius:20px;
+      background: linear-gradient(120deg, #f3e7ff, #fdeeff);
+      box-shadow: 0 8px 20px rgba(100, 80, 150, 0.1);
+    }
+
+    h1{
+      color: var(--morado);
+      font-weight:700;
+      font-size:2.5rem;
+      font-family: "Dancing Script", cursive;
+      margin-bottom:8px;
+    }
+
+    h2{
+      font-size:1.4rem;
+      font-weight:600;
+      color: #6B4CCF;
+      margin-top:0;
+      font-family: "Dancing Script", cursive;
+    }
+
+    section{
+      border-radius:18px;
+      padding:24px;
+      color: var(--texto);
+      box-shadow: 0 8px 20px rgba(50,30,100,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section:hover{
+      transform: translateY(-4px);
+      box-shadow: 0 10px 26px rgba(60,40,100,0.18);
+    }
+
+    .datos { background: linear-gradient(135deg, var(--lavanda), #fff); }
+    .formacion { background: linear-gradient(135deg, var(--rosa), #fff); }
+    .otros { background: linear-gradient(135deg, var(--azul), #fff); }
+    .referentes { background: linear-gradient(135deg, var(--morado), #fff); color: #2f2452; }
+
+    p, li{ line-height:1.6; font-size:1rem; }
+    strong{ color:#7a5dff; font-weight:700; font-family:"Poppins", sans-serif; }
+
+    ul{ padding-left:20px; }
+
+    
+    .gallery{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      gap:20px;
+      flex-wrap:wrap;
+      margin-top:12px;
+    }
+
+    .gallery img{
+      width:220px;
+      height:160px;
+      object-fit:cover;
+      border-radius:16px;
+      border:4px solid #fff;
+      box-shadow: 0 6px 18px rgba(120,80,180,0.2);
+      animation: float 3s ease-in-out infinite;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover{
+      transform: scale(1.05);
+      box-shadow: 0 10px 24px rgba(100,70,160,0.3);
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+
+    figcaption{
+      font-size:0.9rem;
+      color:#3b2f60;
+      margin-top:5px;
+      font-weight:600;
+    }
+
+    footer{
+      text-align:center;
+      padding:16px;
+      color:#6B4CCF;
+      font-weight:600;
+      background: linear-gradient(120deg, #f6e9ff, #fff);
+      border-radius:16px;
+      box-shadow: 0 4px 14px rgba(90,60,150,0.1);
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 3px solid var(--morado);
+  border-radius: 16px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #fff, var(--lavanda));
+  box-shadow: 0 8px 20px rgba(60, 40, 100, 0.15);
+  margin-top: 25px;
+}
+
+th, td {
+  padding: 14px 18px;
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid rgba(100, 80, 150, 0.2);
+  letter-spacing: 0.3px;
+}
+
+th {
+  background: linear-gradient(135deg, var(--morado), #bca9ff);
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+td {
+  color: #4a3a7d;
+  background-color: rgba(255, 255, 255, 0.85);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Alternancia de filas */
+tr:nth-child(even) td {
+  background-color: rgba(230, 220, 255, 0.7);
+}
+
+/* Efecto hover */
+tr:hover td {
+  background-color: #e9defc;
+  color: #2b1f5a;
+  font-weight: 600;
+}
+
+/* Bordes redondeados en las esquinas */
+table tr:first-child th:first-child {
+  border-top-left-radius: 12px;
+}
+table tr:first-child th:last-child {
+  border-top-right-radius: 12px;
+}
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #d1c4e9;
+  padding: 10px;
+}
+
+th {
+  background-color: #d1c4e9;
+  color: #3e206d;
+}
+
+tr:nth-child(even) {
+  background-color: #f7f3ff;
+}
+
+tr:hover {
+  background-color: #ede7f6;
+  transition: 0.3s;
+}
